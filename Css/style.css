@@ -1,0 +1,37 @@
+// style.css
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Fonts/Roboto-Regular.ttf');
+}
+
+.gp1{
+    -fx-background-color: rgb(19, 0, 48);
+    -fx-border-color: rgb(40, 230, 249);
+}
+
+.txtf{
+    -fx-border-color: rgb(40, 230, 249);
+    -fx-text-color: black;
+    -fx-border-width: 2px;
+    -fx-font-size: 14px;
+}
+
+.lbltext{
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-font-family:'Roboto';
+    -fx-font-weight: bold;
+}
+
+.btn1{
+     -fx-pref-width: 70px;
+     -fx-pref-height: 34px;
+     -fx-font-size: 14;
+     -fx-text-color: black;
+}
+
+.btn1: hover{
+   -fx-border-color: rgb(40, 230, 249);
+   -fx-border-width: 2px;
+   -fx-font-weight: bold;
+}
