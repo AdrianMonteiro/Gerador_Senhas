@@ -22,6 +22,24 @@ JavaFX é uma biblioteca open-source para criação de interfaces gráficas em J
 - Exemplo: --module-path /caminho/para/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml
 - Observação: O próprio site do JavaFX oferece documentação detalhada que ensina como configurar o módulo JavaFX na sua IDE. Você pode acessar a documentação em https://openjfx.io/.
 
+### Algumas Funções Extras:
+1. O programa estabelece um tamanho mínimo de 6 caracteres para a geração da senha, sendo 8 caracteres o valor recomendado. Isso ocorre por questões de segurança, pois senhas muito curtas podem ser mais suscetíveis a ataques. Caso o usuário tente criar uma senha com menos de 6 caracteres, um alerta será exibido na tela, impedindo a criação da senha e garantindo que a senha tenha um tamanho mínimo seguro.
+   <p align="center">
+    <img src="https://github.com/user-attachments/assets/e012c93f-fba8-48d3-8f2f-fa12832ae6b3" alt="image" />
+  </p>
+2. O programa também estabelece um valor máximo para o comprimento da senha, limitando-a a 25 caracteres. Isso é feito para garantir um equilíbrio entre segurança e praticidade, evitando senhas excessivamente longas que poderiam ser difíceis de gerenciar ou de utilizar. 
+ <p align="center">
+    <img src="https://github.com/user-attachments/assets/77279a8b-d561-4dad-b161-3b0729e3f4b5" alt="image" />
+  </p>
+3. Também garante que o usuário forneça apenas entradas válidas, ou seja, apenas números são permitidos. Letras e caracteres especiais não serão validados, e um alerta será exibido para informar o usuário sobre o erro, orientando-o a fornecer uma senha com os caracteres corretos.
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/4d9a826a-99c0-4f6e-a93c-047c7cdb160c" alt="image" />
+  </p>
+4. A função de copiar exibe um alerta informando que a senha foi copiada com sucesso e agora está na área de transferência do usuário, pronta para ser utilizada.
+ <p align="center">
+    <img src="https://github.com/user-attachments/assets/4ad6e920-bf3a-4e3b-befc-cdecee46c54a" alt="image" />
+  </p>
+
 ## Requisitos:
 - Java 11 ou superior.
 - JavaFX (configuração manual necessária se estiver usando Java 11 ou superior).
