@@ -40,13 +40,13 @@ public class Main extends Application {
                 //Validações de tamanho
                 if (tamanhoSenha <=6) {
                     // Criar e mostrar a caixa de diálogo de erro
-                    Alert alerta = new Alert(Alert.AlertType.ERROR, "Insira um valor válido (maior que 5).", ButtonType.OK);
+                    Alert alerta = new Alert(Alert.AlertType.ERROR, "Para uma senha mais segura, insira um valor válido (maior que 5).", ButtonType.OK);
                     alerta.setTitle("Erro");
                     alerta.setHeaderText("Tamanho inválido");
                     alerta.showAndWait();
                 }
-                else if (tamanhoSenha > 100) {
-                Alert alerta = new Alert(Alert.AlertType.ERROR, "O comprimento máximo da senha é 100 caracteres.", ButtonType.OK);
+                else if (tamanhoSenha > 25) {
+                Alert alerta = new Alert(Alert.AlertType.ERROR, "O comprimento máximo da senha é 25 caracteres.", ButtonType.OK);
                 alerta.setTitle("Erro");
                 alerta.setHeaderText("Tamanho excessivo");
                 alerta.showAndWait(); }
